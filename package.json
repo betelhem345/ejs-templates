@@ -1,24 +1,37 @@
-{
-  "name": "ejs-templates",
-  "version": "1.0.0",
-  "description": "Import this repo to create a starting point for Node.js projects in repl.it, https://replit.com",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/betelhem345/ejs-templates.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/betelhem345/ejs-templates/issues"
-  },
-  "homepage": "https://github.com/betelhem345/ejs-templates#readme",
-  "dependencies": {
-    "ejs": "^3.1.8",
-    "express": "^4.18.1"
-  }
-}
+<%- include('../partials/header') %>
+<div class="container mt-3">
+  <div class="row">
+	<div class="col-sm-4">
+<h2><%=title%></h2>
+  	<h5></h5>
+  	<div ><img src="/images/betelhem.jpg" width=400px height=300px></div>
+  	<p>“Welcome to my page.”</p>
+  	<h3 class="mt-4">Sources</h3>
+  	<ul class="nav nav-pills flex-column">
+    	<li class="nav-item">
+      	<a class="nav-link active" href="https://betelhem345.github.io/portal-it-115/">Website</a>
+    	</li>
+  	</ul>
+	</div>
+	<div class="col-sm-8">
+  	<h2>  </h2>
+  	<h5>Running </h5>
+  	<div >
+      <img src="images/running.jpg" width=400px height=300px>
+      <img src="images/jumping.jpg" width=400px height=300px>
+    </div>
+    <p> </p>
+    <br>
+    <br>
+    <br>
+  	
+  
+  	<h5>Hobbies</h5
+  	<div >
+      <img src="images/movies.jpg" width=400px height=300px>
+      <img src="images/travelling.jpg" width=400px height=300px>
+    </div>
+  	
+  	<p</p>
+    
+<%- include('../partials/footer') %>
